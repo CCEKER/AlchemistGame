@@ -7,41 +7,243 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D2B8E762BFB191000A3A49F /* AlchemistGameResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B8E752BFB191000A3A49F /* AlchemistGameResultViewController.swift */; };
+		9D2B8E782BFB192100A3A49F /* AlchemistGameResultViewController+Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B8E772BFB192100A3A49F /* AlchemistGameResultViewController+Build.swift */; };
+		9D2B8E7A2BFB192D00A3A49F /* AlchemistGameResultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B8E792BFB192D00A3A49F /* AlchemistGameResultInteractor.swift */; };
+		9D2B8E7C2BFB193700A3A49F /* AlchemistGameResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B8E7B2BFB193700A3A49F /* AlchemistGameResultPresenter.swift */; };
+		9D2B8E7E2BFB197A00A3A49F /* AlchemistGameResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B8E7D2BFB197A00A3A49F /* AlchemistGameResultView.swift */; };
+		9D2B8E812BFB1FA900A3A49F /* AlchemistGameResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B8E802BFB1FA900A3A49F /* AlchemistGameResultViewModel.swift */; };
+		9D87042F2C5AB94D00BC6C23 /* AlchemistGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87042E2C5AB94D00BC6C23 /* AlchemistGameTests.swift */; };
+		9D87043C2C5AB98E00BC6C23 /* AlchemistGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87043B2C5AB98E00BC6C23 /* AlchemistGameUITests.swift */; };
+		9D87043E2C5AB98E00BC6C23 /* AlchemistGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87043D2C5AB98E00BC6C23 /* AlchemistGameUITestsLaunchTests.swift */; };
+		9D8704452C5ABA1600BC6C23 /* ElementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8704442C5ABA1600BC6C23 /* ElementTests.swift */; };
+		9DC797872BF5D9640099545A /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC797862BF5D9640099545A /* Element.swift */; };
+		9DCAEECE2BFBB32800017654 /* AlchemistGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAEECD2BFBB32800017654 /* AlchemistGameViewModel.swift */; };
+		9DCFFAE42BF7BD00003D6972 /* ElementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFFAE32BF7BD00003D6972 /* ElementService.swift */; };
 		9DD42A772BF52F740089C828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD42A762BF52F740089C828 /* AppDelegate.swift */; };
 		9DD42A792BF52F740089C828 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD42A782BF52F740089C828 /* SceneDelegate.swift */; };
-		9DD42A7B2BF52F740089C828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD42A7A2BF52F740089C828 /* ViewController.swift */; };
-		9DD42A7E2BF52F740089C828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD42A7C2BF52F740089C828 /* Main.storyboard */; };
 		9DD42A802BF52F750089C828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD42A7F2BF52F750089C828 /* Assets.xcassets */; };
 		9DD42A832BF52F750089C828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD42A812BF52F750089C828 /* LaunchScreen.storyboard */; };
+		9DF9B9E52BF5324E00AE8B00 /* AlchemistGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9E42BF5324E00AE8B00 /* AlchemistGameView.swift */; };
+		9DF9B9E72BF5325800AE8B00 /* AlchemistGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9E62BF5325800AE8B00 /* AlchemistGameViewController.swift */; };
+		9DF9B9E92BF5326B00AE8B00 /* AlchemistGameViewController+Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9E82BF5326B00AE8B00 /* AlchemistGameViewController+Build.swift */; };
+		9DF9B9EB2BF5327400AE8B00 /* AlchemistGameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9EA2BF5327400AE8B00 /* AlchemistGameInteractor.swift */; };
+		9DF9B9EE2BF5328200AE8B00 /* AlchemistGamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9ED2BF5328200AE8B00 /* AlchemistGamePresenter.swift */; };
+		9DF9B9F02BF5339700AE8B00 /* AlchemistGameFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9EF2BF5339700AE8B00 /* AlchemistGameFlowCoordinator.swift */; };
+		9DF9B9F22BF533A300AE8B00 /* AlchemistGameFlowCoordinator+Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9F12BF533A300AE8B00 /* AlchemistGameFlowCoordinator+Build.swift */; };
+		9DF9B9F42BF533B000AE8B00 /* AlchemistGameFlowCoordinatorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9F32BF533B000AE8B00 /* AlchemistGameFlowCoordinatorModule.swift */; };
+		9DF9B9F62BF533BB00AE8B00 /* AlchemistGameFlowCoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9F52BF533BB00AE8B00 /* AlchemistGameFlowCoordinatorAssembly.swift */; };
+		9DF9B9FA2BF535D400AE8B00 /* ApplicationFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9F92BF535D400AE8B00 /* ApplicationFlowCoordinator.swift */; };
+		9DF9B9FC2BF535E400AE8B00 /* ApplicationFlowCoordinator+Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9FB2BF535E400AE8B00 /* ApplicationFlowCoordinator+Build.swift */; };
+		9DF9B9FE2BF535F300AE8B00 /* ApplicationFlowCoordinatorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9FD2BF535F300AE8B00 /* ApplicationFlowCoordinatorModule.swift */; };
+		9DF9BA002BF535FD00AE8B00 /* ApplicationFlowCoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9B9FF2BF535FD00AE8B00 /* ApplicationFlowCoordinatorAssembly.swift */; };
+		9DF9BA032BF537DB00AE8B00 /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9BA022BF537DB00AE8B00 /* CoreAssembly.swift */; };
+		9DF9BA052BF5495300AE8B00 /* AlchemistGameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9BA042BF5495300AE8B00 /* AlchemistGameCollectionViewCell.swift */; };
+		B5CC3D6D09BCFF00A08446A2 /* Pods_AlchemistGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B00357E12C3BF3465732134 /* Pods_AlchemistGame.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9D8704302C5AB94D00BC6C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DD42A6B2BF52F740089C828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD42A722BF52F740089C828;
+			remoteInfo = AlchemistGame;
+		};
+		9D87043F2C5AB98E00BC6C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DD42A6B2BF52F740089C828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD42A722BF52F740089C828;
+			remoteInfo = AlchemistGame;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		797D59528CAED76A7614174B /* Pods-AlchemistGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlchemistGame.debug.xcconfig"; path = "Target Support Files/Pods-AlchemistGame/Pods-AlchemistGame.debug.xcconfig"; sourceTree = "<group>"; };
+		88F26D0403E94ED14C309A62 /* Pods-AlchemistGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlchemistGame.release.xcconfig"; path = "Target Support Files/Pods-AlchemistGame/Pods-AlchemistGame.release.xcconfig"; sourceTree = "<group>"; };
+		8B00357E12C3BF3465732134 /* Pods_AlchemistGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlchemistGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2B8E752BFB191000A3A49F /* AlchemistGameResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameResultViewController.swift; sourceTree = "<group>"; };
+		9D2B8E772BFB192100A3A49F /* AlchemistGameResultViewController+Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlchemistGameResultViewController+Build.swift"; sourceTree = "<group>"; };
+		9D2B8E792BFB192D00A3A49F /* AlchemistGameResultInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameResultInteractor.swift; sourceTree = "<group>"; };
+		9D2B8E7B2BFB193700A3A49F /* AlchemistGameResultPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameResultPresenter.swift; sourceTree = "<group>"; };
+		9D2B8E7D2BFB197A00A3A49F /* AlchemistGameResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameResultView.swift; sourceTree = "<group>"; };
+		9D2B8E802BFB1FA900A3A49F /* AlchemistGameResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameResultViewModel.swift; sourceTree = "<group>"; };
+		9D87042C2C5AB94D00BC6C23 /* AlchemistGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlchemistGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D87042E2C5AB94D00BC6C23 /* AlchemistGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameTests.swift; sourceTree = "<group>"; };
+		9D8704392C5AB98E00BC6C23 /* AlchemistGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlchemistGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D87043B2C5AB98E00BC6C23 /* AlchemistGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameUITests.swift; sourceTree = "<group>"; };
+		9D87043D2C5AB98E00BC6C23 /* AlchemistGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D8704442C5ABA1600BC6C23 /* ElementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementTests.swift; sourceTree = "<group>"; };
+		9DC797862BF5D9640099545A /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		9DCAEECD2BFBB32800017654 /* AlchemistGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameViewModel.swift; sourceTree = "<group>"; };
+		9DCFFAE32BF7BD00003D6972 /* ElementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementService.swift; sourceTree = "<group>"; };
 		9DD42A732BF52F740089C828 /* AlchemistGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlchemistGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD42A762BF52F740089C828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD42A782BF52F740089C828 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DD42A7A2BF52F740089C828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DD42A7D2BF52F740089C828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DD42A7F2BF52F750089C828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD42A822BF52F750089C828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DD42A842BF52F750089C828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF9B9E42BF5324E00AE8B00 /* AlchemistGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameView.swift; sourceTree = "<group>"; };
+		9DF9B9E62BF5325800AE8B00 /* AlchemistGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameViewController.swift; sourceTree = "<group>"; };
+		9DF9B9E82BF5326B00AE8B00 /* AlchemistGameViewController+Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlchemistGameViewController+Build.swift"; sourceTree = "<group>"; };
+		9DF9B9EA2BF5327400AE8B00 /* AlchemistGameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameInteractor.swift; sourceTree = "<group>"; };
+		9DF9B9ED2BF5328200AE8B00 /* AlchemistGamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGamePresenter.swift; sourceTree = "<group>"; };
+		9DF9B9EF2BF5339700AE8B00 /* AlchemistGameFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameFlowCoordinator.swift; sourceTree = "<group>"; };
+		9DF9B9F12BF533A300AE8B00 /* AlchemistGameFlowCoordinator+Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlchemistGameFlowCoordinator+Build.swift"; sourceTree = "<group>"; };
+		9DF9B9F32BF533B000AE8B00 /* AlchemistGameFlowCoordinatorModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameFlowCoordinatorModule.swift; sourceTree = "<group>"; };
+		9DF9B9F52BF533BB00AE8B00 /* AlchemistGameFlowCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameFlowCoordinatorAssembly.swift; sourceTree = "<group>"; };
+		9DF9B9F92BF535D400AE8B00 /* ApplicationFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowCoordinator.swift; sourceTree = "<group>"; };
+		9DF9B9FB2BF535E400AE8B00 /* ApplicationFlowCoordinator+Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApplicationFlowCoordinator+Build.swift"; sourceTree = "<group>"; };
+		9DF9B9FD2BF535F300AE8B00 /* ApplicationFlowCoordinatorModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowCoordinatorModule.swift; sourceTree = "<group>"; };
+		9DF9B9FF2BF535FD00AE8B00 /* ApplicationFlowCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowCoordinatorAssembly.swift; sourceTree = "<group>"; };
+		9DF9BA022BF537DB00AE8B00 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
+		9DF9BA042BF5495300AE8B00 /* AlchemistGameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemistGameCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9DD42A702BF52F740089C828 /* Frameworks */ = {
+		9D8704292C5AB94D00BC6C23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D8704362C5AB98E00BC6C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD42A702BF52F740089C828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CC3D6D09BCFF00A08446A2 /* Pods_AlchemistGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05399D8BB23EFDA9D0BE3753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				797D59528CAED76A7614174B /* Pods-AlchemistGame.debug.xcconfig */,
+				88F26D0403E94ED14C309A62 /* Pods-AlchemistGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		543600474DDAE9FCE7155F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B00357E12C3BF3465732134 /* Pods_AlchemistGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D2B8E6F2BFB187300A3A49F /* AlchemisGameResultViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B8E7F2BFB1F9E00A3A49F /* Model */,
+				9D2B8E702BFB188400A3A49F /* View */,
+				9D2B8E712BFB188900A3A49F /* Interactor */,
+				9D2B8E722BFB188D00A3A49F /* Presenter */,
+			);
+			path = AlchemisGameResultViewController;
+			sourceTree = "<group>";
+		};
+		9D2B8E702BFB188400A3A49F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B8E7D2BFB197A00A3A49F /* AlchemistGameResultView.swift */,
+				9D2B8E752BFB191000A3A49F /* AlchemistGameResultViewController.swift */,
+				9D2B8E772BFB192100A3A49F /* AlchemistGameResultViewController+Build.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D2B8E712BFB188900A3A49F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B8E792BFB192D00A3A49F /* AlchemistGameResultInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9D2B8E722BFB188D00A3A49F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B8E7B2BFB193700A3A49F /* AlchemistGameResultPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9D2B8E7F2BFB1F9E00A3A49F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B8E802BFB1FA900A3A49F /* AlchemistGameResultViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D87042D2C5AB94D00BC6C23 /* AlchemistGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D87042E2C5AB94D00BC6C23 /* AlchemistGameTests.swift */,
+				9D8704442C5ABA1600BC6C23 /* ElementTests.swift */,
+			);
+			path = AlchemistGameTests;
+			sourceTree = "<group>";
+		};
+		9D87043A2C5AB98E00BC6C23 /* AlchemistGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D87043B2C5AB98E00BC6C23 /* AlchemistGameUITests.swift */,
+				9D87043D2C5AB98E00BC6C23 /* AlchemistGameUITestsLaunchTests.swift */,
+			);
+			path = AlchemistGameUITests;
+			sourceTree = "<group>";
+		};
+		9DC797852BF5D95C0099545A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				9DC797862BF5D9640099545A /* Element.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		9DCAEECC2BFBB31D00017654 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DCAEECD2BFBB32800017654 /* AlchemistGameViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DCFFAE22BF7BCB7003D6972 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9DCFFAE32BF7BD00003D6972 /* ElementService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		9DD42A6A2BF52F740089C828 = {
 			isa = PBXGroup;
 			children = (
+				9DCFFAE22BF7BCB7003D6972 /* Services */,
+				9DC797852BF5D95C0099545A /* Domain */,
+				9DF9B9D72BF5317F00AE8B00 /* [Flow] - Application */,
+				9DF9B9DA2BF531A000AE8B00 /* [Flow] - AlchemistGame */,
 				9DD42A752BF52F740089C828 /* AlchemistGame */,
+				9D87042D2C5AB94D00BC6C23 /* AlchemistGameTests */,
+				9D87043A2C5AB98E00BC6C23 /* AlchemistGameUITests */,
 				9DD42A742BF52F740089C828 /* Products */,
+				05399D8BB23EFDA9D0BE3753 /* Pods */,
+				543600474DDAE9FCE7155F12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				9DD42A732BF52F740089C828 /* AlchemistGame.app */,
+				9D87042C2C5AB94D00BC6C23 /* AlchemistGameTests.xctest */,
+				9D8704392C5AB98E00BC6C23 /* AlchemistGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +260,9 @@
 		9DD42A752BF52F740089C828 /* AlchemistGame */ = {
 			isa = PBXGroup;
 			children = (
+				9DF9BA012BF537D200AE8B00 /* DI */,
 				9DD42A762BF52F740089C828 /* AppDelegate.swift */,
 				9DD42A782BF52F740089C828 /* SceneDelegate.swift */,
-				9DD42A7A2BF52F740089C828 /* ViewController.swift */,
-				9DD42A7C2BF52F740089C828 /* Main.storyboard */,
 				9DD42A7F2BF52F750089C828 /* Assets.xcassets */,
 				9DD42A812BF52F750089C828 /* LaunchScreen.storyboard */,
 				9DD42A842BF52F750089C828 /* Info.plist */,
@@ -67,16 +270,164 @@
 			path = AlchemistGame;
 			sourceTree = "<group>";
 		};
+		9DF9B9D72BF5317F00AE8B00 /* [Flow] - Application */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9D82BF5318800AE8B00 /* Coordinator */,
+				9DF9B9D92BF5318C00AE8B00 /* DI */,
+			);
+			path = "[Flow] - Application";
+			sourceTree = "<group>";
+		};
+		9DF9B9D82BF5318800AE8B00 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9F92BF535D400AE8B00 /* ApplicationFlowCoordinator.swift */,
+				9DF9B9FB2BF535E400AE8B00 /* ApplicationFlowCoordinator+Build.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9DF9B9D92BF5318C00AE8B00 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9FD2BF535F300AE8B00 /* ApplicationFlowCoordinatorModule.swift */,
+				9DF9B9FF2BF535FD00AE8B00 /* ApplicationFlowCoordinatorAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		9DF9B9DA2BF531A000AE8B00 /* [Flow] - AlchemistGame */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9DB2BF531BB00AE8B00 /* Screens */,
+				9DF9B9DD2BF531C800AE8B00 /* Coordinator */,
+				9DF9B9DC2BF531C200AE8B00 /* DI */,
+			);
+			path = "[Flow] - AlchemistGame";
+			sourceTree = "<group>";
+		};
+		9DF9B9DB2BF531BB00AE8B00 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B8E6F2BFB187300A3A49F /* AlchemisGameResultViewController */,
+				9DF9B9DE2BF5321000AE8B00 /* AlchemistGameViewController */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9DF9B9DC2BF531C200AE8B00 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9F32BF533B000AE8B00 /* AlchemistGameFlowCoordinatorModule.swift */,
+				9DF9B9F52BF533BB00AE8B00 /* AlchemistGameFlowCoordinatorAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		9DF9B9DD2BF531C800AE8B00 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9EF2BF5339700AE8B00 /* AlchemistGameFlowCoordinator.swift */,
+				9DF9B9F12BF533A300AE8B00 /* AlchemistGameFlowCoordinator+Build.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9DF9B9DE2BF5321000AE8B00 /* AlchemistGameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9DCAEECC2BFBB31D00017654 /* Model */,
+				9DF9B9DF2BF5321800AE8B00 /* View */,
+				9DF9B9E02BF5321C00AE8B00 /* Interactor */,
+				9DF9B9E12BF5322000AE8B00 /* Presenter */,
+			);
+			path = AlchemistGameViewController;
+			sourceTree = "<group>";
+		};
+		9DF9B9DF2BF5321800AE8B00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9E42BF5324E00AE8B00 /* AlchemistGameView.swift */,
+				9DF9B9E62BF5325800AE8B00 /* AlchemistGameViewController.swift */,
+				9DF9B9E82BF5326B00AE8B00 /* AlchemistGameViewController+Build.swift */,
+				9DF9BA042BF5495300AE8B00 /* AlchemistGameCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DF9B9E02BF5321C00AE8B00 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9EA2BF5327400AE8B00 /* AlchemistGameInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9DF9B9E12BF5322000AE8B00 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9B9ED2BF5328200AE8B00 /* AlchemistGamePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9DF9BA012BF537D200AE8B00 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9BA022BF537DB00AE8B00 /* CoreAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9D87042B2C5AB94D00BC6C23 /* AlchemistGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8704322C5AB94D00BC6C23 /* Build configuration list for PBXNativeTarget "AlchemistGameTests" */;
+			buildPhases = (
+				9D8704282C5AB94D00BC6C23 /* Sources */,
+				9D8704292C5AB94D00BC6C23 /* Frameworks */,
+				9D87042A2C5AB94D00BC6C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8704312C5AB94D00BC6C23 /* PBXTargetDependency */,
+			);
+			name = AlchemistGameTests;
+			productName = AlchemistGameTests;
+			productReference = 9D87042C2C5AB94D00BC6C23 /* AlchemistGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D8704382C5AB98E00BC6C23 /* AlchemistGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8704412C5AB98E00BC6C23 /* Build configuration list for PBXNativeTarget "AlchemistGameUITests" */;
+			buildPhases = (
+				9D8704352C5AB98E00BC6C23 /* Sources */,
+				9D8704362C5AB98E00BC6C23 /* Frameworks */,
+				9D8704372C5AB98E00BC6C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8704402C5AB98E00BC6C23 /* PBXTargetDependency */,
+			);
+			name = AlchemistGameUITests;
+			productName = AlchemistGameUITests;
+			productReference = 9D8704392C5AB98E00BC6C23 /* AlchemistGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		9DD42A722BF52F740089C828 /* AlchemistGame */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DD42A872BF52F750089C828 /* Build configuration list for PBXNativeTarget "AlchemistGame" */;
 			buildPhases = (
+				8891C9C8A4BADEC312A42273 /* [CP] Check Pods Manifest.lock */,
 				9DD42A6F2BF52F740089C828 /* Sources */,
 				9DD42A702BF52F740089C828 /* Frameworks */,
 				9DD42A712BF52F740089C828 /* Resources */,
+				BCB9A7A53E73300B32AD069E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,9 +445,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					9D87042B2C5AB94D00BC6C23 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9DD42A722BF52F740089C828;
+					};
+					9D8704382C5AB98E00BC6C23 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9DD42A722BF52F740089C828;
+					};
 					9DD42A722BF52F740089C828 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -116,45 +475,148 @@
 			projectRoot = "";
 			targets = (
 				9DD42A722BF52F740089C828 /* AlchemistGame */,
+				9D87042B2C5AB94D00BC6C23 /* AlchemistGameTests */,
+				9D8704382C5AB98E00BC6C23 /* AlchemistGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9D87042A2C5AB94D00BC6C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8704372C5AB98E00BC6C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DD42A712BF52F740089C828 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9DD42A832BF52F750089C828 /* LaunchScreen.storyboard in Resources */,
 				9DD42A802BF52F750089C828 /* Assets.xcassets in Resources */,
-				9DD42A7E2BF52F740089C828 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8891C9C8A4BADEC312A42273 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlchemistGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB9A7A53E73300B32AD069E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlchemistGame/Pods-AlchemistGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlchemistGame/Pods-AlchemistGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlchemistGame/Pods-AlchemistGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		9D8704282C5AB94D00BC6C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8704452C5ABA1600BC6C23 /* ElementTests.swift in Sources */,
+				9D87042F2C5AB94D00BC6C23 /* AlchemistGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8704352C5AB98E00BC6C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D87043C2C5AB98E00BC6C23 /* AlchemistGameUITests.swift in Sources */,
+				9D87043E2C5AB98E00BC6C23 /* AlchemistGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DD42A6F2BF52F740089C828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD42A7B2BF52F740089C828 /* ViewController.swift in Sources */,
+				9D2B8E762BFB191000A3A49F /* AlchemistGameResultViewController.swift in Sources */,
 				9DD42A772BF52F740089C828 /* AppDelegate.swift in Sources */,
+				9DF9B9F02BF5339700AE8B00 /* AlchemistGameFlowCoordinator.swift in Sources */,
+				9DC797872BF5D9640099545A /* Element.swift in Sources */,
+				9DF9B9E72BF5325800AE8B00 /* AlchemistGameViewController.swift in Sources */,
+				9DF9B9FC2BF535E400AE8B00 /* ApplicationFlowCoordinator+Build.swift in Sources */,
+				9D2B8E7E2BFB197A00A3A49F /* AlchemistGameResultView.swift in Sources */,
+				9D2B8E812BFB1FA900A3A49F /* AlchemistGameResultViewModel.swift in Sources */,
+				9DF9B9F42BF533B000AE8B00 /* AlchemistGameFlowCoordinatorModule.swift in Sources */,
 				9DD42A792BF52F740089C828 /* SceneDelegate.swift in Sources */,
+				9DF9BA032BF537DB00AE8B00 /* CoreAssembly.swift in Sources */,
+				9D2B8E7A2BFB192D00A3A49F /* AlchemistGameResultInteractor.swift in Sources */,
+				9DF9B9EB2BF5327400AE8B00 /* AlchemistGameInteractor.swift in Sources */,
+				9DF9B9FA2BF535D400AE8B00 /* ApplicationFlowCoordinator.swift in Sources */,
+				9DF9B9E92BF5326B00AE8B00 /* AlchemistGameViewController+Build.swift in Sources */,
+				9DCFFAE42BF7BD00003D6972 /* ElementService.swift in Sources */,
+				9DF9BA052BF5495300AE8B00 /* AlchemistGameCollectionViewCell.swift in Sources */,
+				9DCAEECE2BFBB32800017654 /* AlchemistGameViewModel.swift in Sources */,
+				9D2B8E7C2BFB193700A3A49F /* AlchemistGameResultPresenter.swift in Sources */,
+				9D2B8E782BFB192100A3A49F /* AlchemistGameResultViewController+Build.swift in Sources */,
+				9DF9B9F62BF533BB00AE8B00 /* AlchemistGameFlowCoordinatorAssembly.swift in Sources */,
+				9DF9B9EE2BF5328200AE8B00 /* AlchemistGamePresenter.swift in Sources */,
+				9DF9B9E52BF5324E00AE8B00 /* AlchemistGameView.swift in Sources */,
+				9DF9B9F22BF533A300AE8B00 /* AlchemistGameFlowCoordinator+Build.swift in Sources */,
+				9DF9B9FE2BF535F300AE8B00 /* ApplicationFlowCoordinatorModule.swift in Sources */,
+				9DF9BA002BF535FD00AE8B00 /* ApplicationFlowCoordinatorAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		9DD42A7C2BF52F740089C828 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DD42A7D2BF52F740089C828 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		9D8704312C5AB94D00BC6C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DD42A722BF52F740089C828 /* AlchemistGame */;
+			targetProxy = 9D8704302C5AB94D00BC6C23 /* PBXContainerItemProxy */;
 		};
+		9D8704402C5AB98E00BC6C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DD42A722BF52F740089C828 /* AlchemistGame */;
+			targetProxy = 9D87043F2C5AB98E00BC6C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		9DD42A812BF52F750089C828 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +628,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9D8704332C5AB94D00BC6C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MC2A957CM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagatay.AlchemistGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlchemistGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlchemistGame";
+			};
+			name = Debug;
+		};
+		9D8704342C5AB94D00BC6C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MC2A957CM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagatay.AlchemistGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlchemistGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlchemistGame";
+			};
+			name = Release;
+		};
+		9D8704422C5AB98E00BC6C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MC2A957CM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagatay.AlchemistGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlchemistGame;
+			};
+			name = Debug;
+		};
+		9D8704432C5AB98E00BC6C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MC2A957CM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagatay.AlchemistGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlchemistGame;
+			};
+			name = Release;
+		};
 		9DD42A852BF52F750089C828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -287,17 +823,18 @@
 		};
 		9DD42A882BF52F750089C828 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797D59528CAED76A7614174B /* Pods-AlchemistGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9MC2A957CM;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AlchemistGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,17 +852,18 @@
 		};
 		9DD42A892BF52F750089C828 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F26D0403E94ED14C309A62 /* Pods-AlchemistGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9MC2A957CM;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AlchemistGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,6 +882,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9D8704322C5AB94D00BC6C23 /* Build configuration list for PBXNativeTarget "AlchemistGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8704332C5AB94D00BC6C23 /* Debug */,
+				9D8704342C5AB94D00BC6C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D8704412C5AB98E00BC6C23 /* Build configuration list for PBXNativeTarget "AlchemistGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8704422C5AB98E00BC6C23 /* Debug */,
+				9D8704432C5AB98E00BC6C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9DD42A6E2BF52F740089C828 /* Build configuration list for PBXProject "AlchemistGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
